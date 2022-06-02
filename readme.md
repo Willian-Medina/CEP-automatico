@@ -1,0 +1,1 @@
+Esse projeto busca pelo CEP o endereço completo de qualquer lugar do território brasileiro

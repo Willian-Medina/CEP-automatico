@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>CEP-Automatico</title>
+</head>
+<body>
+    <div style="margin-bottom:70px;">
+        <h1>CEP -Automático</h1>
+    </div>
+    <div style="width: 60vw; margin: 0 auto;">
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInput cep" class="cep" placeholder="33333-33">
+            <label for="floatingInput">CEP</label>
+      </div>
+      <div class="row"  style="margin: 50px;">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="CEP" id="cep2" style="display: none;">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Cidade" id="cidade" style="display: none">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" placeholder="UF" id="uf" style="display: none">
+          </div>
+      </div>
+      <div class="row" style="margin: 50px;">
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Logradouro" id="logradouro" style="display: none">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Complemento" id="complemento" style="display: none">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Bairro" id="bairro" style="display: none" >
+          </div>
+      </div>
+    </div>
+
+
+
+<script src="cep.js"></script>   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
